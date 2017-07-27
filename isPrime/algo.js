@@ -1,6 +1,5 @@
 function isPrime(n) {
-    let target = Math.sqrt(n),
-        i = 2;
+    let target = Math.sqrt(n);
     for (let i = 2; i <= target; i++) {
         if (n % i == 0) return false;
     }
